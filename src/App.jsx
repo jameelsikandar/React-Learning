@@ -1,21 +1,26 @@
-import Header from "./components/Header"
-import MainContent from "./components/MainContent"
-import Footer from "./components/Footer"
-import Counter from "./components/Counter";
-import Movies from "./components/Movies";
-import TodoList from "./components/TodoList";
-import Profile from "./components/Profile";
-import ShoppingList from "./components/ShoppingList";
-import CopyInput from "./components/CopyInput";
+import Header from "./components/UseState/Header"
+import MainContent from "./components/UseState/MainContent"
+import Footer from "./components/UseState/Footer"
+import Counter from "./components/UseState/Counter";
+import Movies from "./components/UseState/Movies";
+import TodoList from "./components/UseState/TodoList";
+import Profile from "./components/UseState/Profile";
+import ShoppingList from "./components/UseState/ShoppingList";
+import CopyInput from "./components/UseState/CopyInput";
+import Switcher from "./components/UseState/Switcher";
+import One from "./components/UseEffect/One";
+import Fetch from "./components/UseEffect/Fetch";
+import BasicEffect from "./components/UseEffect/BasicEffect";
+
 
 
 function App() {
-  const numbers = [1, 3, 5, 6, 8, 9, 12];
 
   return (
     <>
-      <CopyInput />
-      
+        <BasicEffect />
+    
+    
     </>
     
   )
