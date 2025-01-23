@@ -6,6 +6,7 @@ import Movies from "./components/Movies";
 import TodoList from "./components/TodoList";
 import Profile from "./components/Profile";
 import ShoppingList from "./components/ShoppingList";
+import CopyInput from "./components/CopyInput";
 
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
 
   return (
     <>
-      <ShoppingList />
+      <CopyInput />
       
     </>
     
