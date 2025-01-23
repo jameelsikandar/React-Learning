@@ -11,6 +11,7 @@ import Switcher from "./components/UseState/Switcher";
 import One from "./components/UseEffect/One";
 import Fetch from "./components/UseEffect/Fetch";
 import BasicEffect from "./components/UseEffect/BasicEffect";
+import CounterEffect from "./components/UseEffect/CounterEffect";
 
 
 
@@ -18,7 +19,7 @@ function App() {
 
   return (
     <>
-        <BasicEffect />
+        <CounterEffect />
     
     
     </>
